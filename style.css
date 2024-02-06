@@ -1,0 +1,140 @@
+body {
+      font-family: 'Nunito Sans', serif;
+      font-size: 16px;
+      line-height: 1.5;
+      background-color: #f3e5d8;
+      margin: 100px;
+    }
+    
+    .main {
+      width: 80%;
+      margin: 0 auto;
+      padding: 4%;
+      background-color: white;
+      border-radius: 10px;
+    }
+
+    .main p {
+      color: rgb(79, 79, 79);
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      color: #410c0e;
+    }
+
+    img {
+      border-radius: 10px;
+    }
+
+
+
+    /*For the Preparation time section*/
+    .S1 {
+      background-color: rgb(246, 218, 232);
+      border-radius: 10px;
+      margin:10px;
+    }
+    h3{
+      padding: 20px 0px 0px 20px;
+      color: rgb(96, 1, 96);
+    }
+    .S1 ul li {
+      padding: 0px 0px 10px 5px;
+      color: rgb(79, 79, 79);
+      margin-left: 5px;
+    }
+    .S1 li::marker{
+      color: rgb(96, 1, 96);
+    }
+
+
+
+    /*For the Ingredients section*/
+    h2 {
+      color: rgb(158, 90, 50);
+      margin-left: 10px;
+    }
+    .S2 ul li {
+      padding: 0px 0px 5px 15px;
+      color:rgb(79, 79, 79);
+      margin-left: -10px;
+      margin-bottom: 0.5em;
+    }
+    .S2 li::marker {
+      color: rgb(158, 90, 50);
+    }
+    hr{
+      color: rgb(79, 79, 79);
+    }
+
+
+
+    /*For the Instructions section*/
+    .S3 ol li {
+      color:rgb(79, 79, 79);
+      padding: 0px 5px 0px 15px;
+      margin-left: -10px;
+      margin-bottom: 0.5em;
+    }
+    .S3 li::marker {
+      color: rgb(158, 90, 50);
+      font-weight: bold;
+    }
+
+
+
+    /*For the Nutrition section*/
+    .S4 table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      width: 50%;
+    }
+    .S4 td {
+      padding: 10px;
+      border-bottom: 1px solid #979797;
+      text-align: left;
+    }
+    .S4 .Calories {
+      font-weight: bold;
+      color: rgb(158, 90, 50);
+      text-align: right;
+    }
+
+    .attribution {
+      text-align: center;
+      margin-top: 50px;
+    }
+    
+    .attribution a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    
+    @media screen and (max-width: 768px) {
+      .main {
+        width: 90%;
+    }
+      
+      .main h1 {
+        font-size: 32px;
+    }
+      
+      .main h2 {
+        font-size: 24px;
+    }
+      
+      .main table {
+        width: 80%;
+      }
+    }
+    
+    @media screen and (max-width: 480px) {
+      .main h1 {
+        font-size: 28px;
+      }
+      
+      .main h2 {
+        font-size: 20px;
+      }
+    }
